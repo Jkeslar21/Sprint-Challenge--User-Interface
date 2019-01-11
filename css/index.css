@@ -259,6 +259,12 @@ footer nav a {
     align-items: flex-end;
     justify-content: space-between;
 }
+.about-nav a:hover{
+    color: purple;
+    animation-name: color-glow;
+    animation-duration: 7s;
+    font-size: 21px;
+}
 .one{
     padding: 25px;
     border-bottom: 1px dashed black;
@@ -304,4 +310,18 @@ header nav a{
     text-decoration: none;
     color: black;
     padding-top: 25px;
+}
+header nav a:hover{
+    color: purple;
+    animation-name: color-glow;
+    animation-duration: 7s;
+    font-size: 18px;
+}
+@keyframes color-glow{
+    0% {color: purple;}
+    20% {color: navy;}
+    40% {color: lightseagreen}
+    60% {color: limegreen}
+    80% {color: yellowgreen;}
+    100% {color: lightcoral;}
 }
