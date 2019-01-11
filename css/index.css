@@ -259,3 +259,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About CSS Code */
+
+.wholecontainer-about{
+    width: 800px;
+    margin: 0 auto;   
+}
+.about-nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.one{
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+.two{
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+.three{
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+.four{
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+.five{
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+.six{
+    padding: 25px;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+}
