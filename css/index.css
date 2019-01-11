@@ -305,5 +305,7 @@ footer nav a {
 button{
     background-color: white;
     border: 2px solid black;
-    border-radius: 15%;
+    border-radius: 12px;
+    width: 40%;
+    height: 10%;
 }
