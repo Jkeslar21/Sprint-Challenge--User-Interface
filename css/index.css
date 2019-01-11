@@ -71,7 +71,7 @@ p {
 }
 header{
     width: 100%;
-    display: flex;
+    Display: flex;
     justify-content: flex-start;
     margin: 31px 31px 31px 0;
     flex-direction: row;
@@ -80,19 +80,7 @@ header .logo{
     display: flex;
     align-items: flex-start;
 }
-header nav a{
-    /*display: flex;*/ /*midway through coding i noticed my nav switched from row to column, can't figure out why so im taking display:flex out; no longer perfect nav :,( */
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin: 0 31px;
-    text-decoration: none;
-    color: black;
-}
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+
 .mainpicture{
     margin-bottom: 31px;
 }
@@ -123,7 +111,7 @@ header nav a{
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .box1{
@@ -308,4 +296,12 @@ button{
     border-radius: 12px;
     width: 40%;
     height: 10%;
+}
+header nav a{
+    display: inline-block;
+    margin: 0 39px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
 }
