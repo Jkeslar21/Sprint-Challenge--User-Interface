@@ -65,12 +65,33 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.wholecontainer{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 31px 31px 31px 0;
+}
+header .logo{
+    align-items: flex-start;
+}
+header nav a{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 31px;
+    text-decoration: none;
+    color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.mainpicture{
+    margin-bottom: 31px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
