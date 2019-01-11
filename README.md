@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the logical utilization of using various tags appropriately with certain elements to give both browser search engines and web developers insight into the meaning and importance of each element.  Semantic HTML is an acceptable and verifiable way of "labeling" your elements with tags so that they have meaning in an organized, understood fashion.  I like to think of semantic HTML as highlighting notes with various colors for organization, or adding sticky notes to a book for explanation and emphasis.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The two big difference between a block and inline display would be in its appearance and its behavior.  Block display will take up an entire "block", regardless of any visible space you may see to add content too.  Any additional content will be added beneath that block.  Blocks in this respect, are stacked.  Inline display, however, will add additional content in-line or side by side.  In this respect, inline displays I like to think of as dominoes, all in a line, side by side, and will continue to grow horizontally until there is no more space for content, at which point the flow will continue on the next line below.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model consist of: content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+While using flexbox, "align-items: center;" will control the arrangement on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows the team to access, work on, and update a project, so everyone is kept on the same page.  It also allows developers to commit their changes to a remote cloud, so at anytime, if a disaster occurs, they will be able to reference and recover their code at any committed time.  I was taught to think of this like dropping a bread crumb trail.  Just like that might help prevent you from becoming lost in an adventurous situation, referencing committed code will prevent you from losing your work up to that point.  It is very similar to how "checkpoints" work in video games.  Once you fail, you may revert back to the nearest checkpoint instead of starting the entire level or journey over.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
