@@ -247,7 +247,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+footer nav a:hover{
+    color: purple;
+    animation-name: color-glow;
+    animation-duration: 7s;
+    font-size: 18px;
+    animation-iteration-count: infinite;
+}
+header nav a{
+    display: inline-block;
+    margin: 0 39px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+}
+header nav a:hover{
+    color: purple;
+    animation-name: color-glow;
+    animation-duration: 7s;
+    font-size: 18px;
+    animation-iteration-count: infinite;
+}
 /* About CSS Code */
 
 .wholecontainer-about{
@@ -263,7 +284,8 @@ footer nav a {
     color: purple;
     animation-name: color-glow;
     animation-duration: 7s;
-    font-size: 21px;
+    font-size: 18px;
+    animation-iteration-count: infinite;
 }
 .one{
     padding: 25px;
@@ -303,20 +325,13 @@ button{
     width: 40%;
     height: 10%;
 }
-header nav a{
-    display: inline-block;
-    margin: 0 39px;
-    justify-content: space-around;
-    text-decoration: none;
-    color: black;
-    padding-top: 25px;
-}
-header nav a:hover{
+.about-footer{
     color: purple;
     animation-name: color-glow;
     animation-duration: 7s;
     font-size: 18px;
-}
+    animation-iteration-count: infinite;
+} 
 @keyframes color-glow{
     0% {color: purple;}
     20% {color: navy;}
@@ -324,4 +339,53 @@ header nav a:hover{
     60% {color: limegreen}
     80% {color: yellowgreen;}
     100% {color: lightcoral;}
+}
+
+/* CSS for Contact */
+.contact-container{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contactus h1{
+    margin-top: 25px;
+    padding-top: 25px;
+    display: block;
+    margin: 0 350px;
+    font-style: oblique;
+
+}
+.address{
+    display: block;
+    font-style: oblique;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+.telephonenumber{
+    display: block;
+    font-style: oblique;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+.fax{
+    display: block;
+    font-style: oblique;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+.e-mail{
+    display: block;
+    font-style: oblique;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.contact-container header nav a{
+    display: inline-block;
+    margin: 0 39px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
 }
