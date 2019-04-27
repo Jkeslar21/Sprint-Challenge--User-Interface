@@ -217,7 +217,7 @@ footer nav a {
     margin-bottom: 30px;
 }
 
-.row-1 {
+.row-1, .row-2 {
     display: flex;
 }
 
@@ -225,10 +225,6 @@ footer nav a {
     margin-left: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 60px;
-}
-
-.row-2 {
-    display: flex;
 }
 
 .card > img {
