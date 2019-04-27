@@ -65,25 +65,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-.wholecontainer{
+
+.container {
     width: 800px;
     margin: 0 auto;
 }
-header{
-    width: 100%;
-    Display: flex;
-    justify-content: flex-start;
-    margin: 31px 31px 31px 0;
-    flex-direction: row;
-}
-header .logo{
+
+header {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 37px;
 }
 
-.mainpicture{
-    margin-bottom: 31px;
+.logo {
+    margin-right: 44px;
 }
+
+.nav a {
+    margin-right: 75px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,108 +120,59 @@ header .logo{
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
-.box1{
+
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box2{
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* box color styles */
+.one{
+    background-color: teal;
 }
-.box3{
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.two {
+    background-color: gold;
 }
-.box4{
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.three {
+    background-color: cadetblue;
 }
-.box5{
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.four {
+    background-color: coral;
 }
-.box6{
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.five {
+    background-color: crimson;
 }
-.box7{
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.six {
+    background-color: forestgreen;
 }
-.box8{
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.seven {
+    background-color: darkorchid;
 }
-.box9{
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.eight {
+    background-color: hotpink;
 }
-.box10{
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -247,98 +207,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-footer nav a:hover{
-    color: purple;
-    animation-name: color-glow;
-    animation-duration: 7s;
-    font-size: 18px;
-    animation-iteration-count: infinite;
-}
-header nav a{
-    display: inline-block;
-    margin: 0 39px;
-    justify-content: space-around;
-    text-decoration: none;
-    color: black;
-    padding-top: 25px;
-}
-header nav a:hover{
-    color: purple;
-    animation-name: color-glow;
-    animation-duration: 7s;
-    font-size: 18px;
-    animation-iteration-count: infinite;
-}
-/* About CSS Code */
 
-.wholecontainer-about{
-    width: 800px;
-    margin: 0 auto;   
+/* About Page CSS */
+
+.top {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
 }
-.about-nav{
+
+.row-1 {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
 }
-.about-nav a:hover{
-    color: purple;
-    animation-name: color-glow;
-    animation-duration: 7s;
-    font-size: 18px;
-    animation-iteration-count: infinite;
-}
-.one{
-    padding: 25px;
+
+.card {
+    margin-left: 15px;
     border-bottom: 1px dashed black;
+    margin-bottom: 60px;
 }
-.two{
-    padding: 25px;
-    border-bottom: 1px dashed black;
-}
-.three{
-    padding: 25px;
-    border-bottom: 1px dashed black;
-}
-.four{
-    padding: 25px;
-    border-bottom: 1px dashed black;
-}
-.five{
-    padding: 25px;
-    border-bottom: 1px dashed black;
-}
-.six{
-    padding: 25px;
-}
-.a{
+
+.row-2 {
     display: flex;
-    justify-content: space-around;
 }
-.b{
-    display: flex;
-    justify-content: space-around;
+
+.card > img {
+    padding-bottom: 10px;
 }
-button{
-    background-color: white;
+
+.card > button {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 8px;
     border: 2px solid black;
-    border-radius: 12px;
-    width: 40%;
-    height: 10%;
+    background-color: white;
 }
-.about-footer{
-    color: purple;
-    animation-name: color-glow;
-    animation-duration: 7s;
-    font-size: 18px;
-    animation-iteration-count: infinite;
-} 
-@keyframes color-glow{
-    0% {color: purple;}
-    20% {color: navy;}
-    40% {color: lightseagreen}
-    60% {color: limegreen}
-    80% {color: yellowgreen;}
-    100% {color: lightcoral;}
+
+.bottom {
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
 }
 
 /* CSS for Contact */
